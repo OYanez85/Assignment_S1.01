@@ -8,8 +8,26 @@ public class Main {
         WindInstrument flute = new WindInstrument("Flute", 150.0);
         flute.tocar();
 
+        WindInstrument clarinet = new WindInstrument("Clarinet", 150.0);
+        clarinet.tocar();
+
+        WindInstrument oboe = new WindInstrument("Oboe", 300.0);
+        oboe.tocar();
+
+        WindInstrument bassoon = new WindInstrument("Bassoon", 450.0);
+        bassoon.tocar();
+
         WindInstrument trumpet = new WindInstrument("Trumpet", 250.0);
         trumpet.tocar();
+
+        WindInstrument trombone = new WindInstrument("Trombone", 350.0);
+        trombone.tocar();
+
+        WindInstrument frenchHorn = new WindInstrument("French Horn", 500.0);
+        frenchHorn.tocar();
+
+        WindInstrument tuba = new WindInstrument("Tuba", 700.0);
+        tuba.tocar();
 
         WindInstrument saxophone = new WindInstrument("Saxophone", 400.0);
         saxophone.tocar();
