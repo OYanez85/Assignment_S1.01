@@ -7,7 +7,7 @@ class WindInstrument extends Instrument {
     // Implement the abstract tocar() method
     @Override
     public void tocar() {
-        System.out.println("Està sonant un instrument de vent");
+        System.out.println("A wind instrument is playing.");
     }
     
     // Static block for class loading demonstration
