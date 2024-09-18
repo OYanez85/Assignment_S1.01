@@ -1,21 +1,21 @@
 // Main.java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Marca: " + Cotxe.marca);
+        System.out.println("Brand: " + Car.brand);
 
         // Create instances of Cotxe
-        Cotxe cotxe1 = new Cotxe("Golf", 150);
-        Cotxe cotxe2 = new Cotxe("Tiguan", 200);
+        Car car1 = new Car("Golf", 150);
+        Car car2 = new Car("Tiguan", 200);
 
-        System.out.println("Cotxe 1 - Model: " + Cotxe.model + ", Potència: " + cotxe1.potencia);
-        System.out.println("Cotxe 2 - Model: " + Cotxe.model + ", Potència: " + cotxe2.potencia);
+        System.out.println("Car 1 - Model: " + Car.model + ", Horsepower: " + car1.horsepower);
+        System.out.println("Car 2 - Model: " + Car.model + ", Horsepower: " + car2.horsepower);
 
         // Call static method
-        Cotxe.frenar();
+        Car.breaking();
 
         // Call non-static method
-        cotxe1.accelerar();
-        cotxe2.accelerar();
+        car1.accelerating();
+        car2.accelerating();
     }
 }
 
