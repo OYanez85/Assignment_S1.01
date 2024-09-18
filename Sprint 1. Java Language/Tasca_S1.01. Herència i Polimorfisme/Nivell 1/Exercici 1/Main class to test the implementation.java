@@ -33,8 +33,12 @@ public class Main {
         saxophone.tocar();
 
         // Create instances of different string instruments
+
         StringInstrument guitar = new StringInstrument("Guitar", 300.0);
         guitar.tocar();
+
+        StringInstrument viola = new StringInstrument("Viola", 600.0);
+        viola.tocar();
 
         StringInstrument violin = new StringInstrument("Violin", 500.0);
         violin.tocar();
@@ -42,12 +46,40 @@ public class Main {
         StringInstrument cello = new StringInstrument("Cello", 700.0);
         cello.tocar();
 
+        StringInstrument doubleBass = new StringInstrument("doubleBass", 800.0);
+        doubleBass.tocar();
+
+        StringInstrument Harp = new StringInstrument("Harp", 1000.0);
+        harp.tocar();
+
         // Create instances of different percussion instruments
+
+        PercussionInstrument Timpani = new PercussionInstrument("Timpani", 900.0);
+        timpani.tocar();
+
+        PercussionInstrument Snaredrum = new PercussionInstrument("Snare drum", 150.0);
+        snaredrum.tocar();
+
+        PercussionInstrument Bassdrum = new PercussionInstrument("Bass drum", 300.0);
+        bassdrum.tocar();
+
+        PercussionInstrument Cymbal = new PercussionInstrument("Cymbals", 200.0);
+        cymbals.tocar();
+
+        PercussionInstrument Triangle = new PercussionInstrument ("Triangle", 50.0);
+        triangle.tocar();
+
+        PercussionInstrument Marimba = new PercussionInstrument ("Marimba", 600.0);
+        marimba.tocar();
+        
         PercussionInstrument drum = new PercussionInstrument("Drum", 200.0);
         drum.tocar();
 
         PercussionInstrument tambourine = new PercussionInstrument("Tambourine", 100.0);
         tambourine.tocar();
+
+        PercussionInstrument gong = new PercussionInstrument("Gong", 400.0);
+        gong.tocar();
 
         PercussionInstrument xylophone = new PercussionInstrument("Xylophone", 350.0);
         xylophone.tocar();
