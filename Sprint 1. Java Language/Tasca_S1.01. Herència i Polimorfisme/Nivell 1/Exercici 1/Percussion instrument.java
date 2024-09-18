@@ -7,7 +7,7 @@ class PercussionInstrument extends Instrument {
     // Implement the abstract tocar() method
     @Override
     public void tocar() {
-        System.out.println("Està sonant un instrument de percussió");
+        System.out.println("A percussion instrument is playing.");
     }
 
     static {
