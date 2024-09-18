@@ -32,6 +32,14 @@ public class Main {
         // Call non-static method
         car1.accelerating();
         car2.accelerating();
+        car3.accelerating();
+        car4.accelerating();
+        car5.accelerating();
+        car6.accelerating();
+        car7.accelerating();
+        car8.accelerating();
+        car9.accelerating();
+        car10.accelerating();
     }
 }
 
