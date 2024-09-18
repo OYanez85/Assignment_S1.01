@@ -1,24 +1,24 @@
-// Cotxe.java
-public class Cotxe {
+// Car.java
+public class Car {
     // Attributes
-    public static final String marca = "Volkswagen";
+    public static final String brand = "Volkswagen";
     public static String model;
-    public final int potencia;
+    public final int horsepower;
 
     // Constructor
-    public Cotxe(String model, int potencia) {
+    public Cotxe(String model, int horsepower) {
         Cotxe.model = model;
-        this.potencia = potencia;
+        this.horsepower = horsepower;
     }
 
     // Static method
-    public static void frenar() {
-        System.out.println("El vehicle està frenant.");
+    public static void braking() {
+        System.out.println("The vehicle is braking.");
     }
 
     // Non-static method
-    public void accelerar() {
-        System.out.println("El vehicle està accelerant.");
+    public void accelerate() {
+        System.out.println("The vehicle is accelerating.");
     }
 }
 
