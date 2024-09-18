@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Brand: " + Car.brand);
 
-        // Create instances of Cotxe
+        // Create instances of Car
         Car car1 = new Car("Golf", 150);
         Car car2 = new Car("Tiguan", 200);
 
