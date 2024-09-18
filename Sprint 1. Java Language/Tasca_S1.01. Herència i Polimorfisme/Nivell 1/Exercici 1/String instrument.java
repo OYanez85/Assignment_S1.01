@@ -7,7 +7,7 @@ class StringInstrument extends Instrument {
     // Implement the abstract tocar() method
     @Override
     public void tocar() {
-        System.out.println("Està sonant un instrument de corda");
+        System.out.println("A string instrument is playing.");
     }
 
     static {
