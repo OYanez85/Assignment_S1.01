@@ -6,8 +6,8 @@ public class Car {
     public final int horsepower;
 
     // Constructor
-    public Cotxe(String model, int horsepower) {
-        Cotxe.model = model;
+    public Car(String model, int horsepower) {
+        Car.model = model;
         this.horsepower = horsepower;
     }
 
