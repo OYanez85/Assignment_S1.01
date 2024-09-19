@@ -1,5 +1,5 @@
 // Main class to test the implementation
-public class Main {
+public class MainExercici1 {
     public static void main(String[] args) {
         // Static block demo: Access a static member to trigger class loading
         System.out.println("Before creating instances...");
