@@ -1,13 +1,12 @@
-// Car.java
 public class Car {
     // Attributes
     public static final String brand = "Volkswagen";
-    public static String model;
+    public String model;  // Make model non-static
     public final int horsepower;
 
     // Constructor
     public Car(String model, int horsepower) {
-        Car.model = model;
+        this.model = model;  // Use instance variable
         this.horsepower = horsepower;
     }
 
@@ -18,7 +17,8 @@ public class Car {
 
     // Non-static method
     public void accelerate() {
-        System.out.println("The vehicle is accelerating.");
+        System.out.println("The vehicle " + model + " is accelerating with " + horsepower + " horsepower.");
     }
 }
+
 

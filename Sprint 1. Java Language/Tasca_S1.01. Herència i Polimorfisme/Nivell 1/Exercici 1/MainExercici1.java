@@ -49,27 +49,27 @@ public class MainExercici1 {
         StringInstrument doubleBass = new StringInstrument("doubleBass", 800.0);
         doubleBass.tocar();
 
-        StringInstrument Harp = new StringInstrument("Harp", 1000.0);
+        StringInstrument harp = new StringInstrument("Harp", 1000.0);
         harp.tocar();
 
         // Create instances of different percussion instruments
 
-        PercussionInstrument Timpani = new PercussionInstrument("Timpani", 900.0);
+        PercussionInstrument timpani = new PercussionInstrument("Timpani", 900.0);
         timpani.tocar();
 
-        PercussionInstrument Snaredrum = new PercussionInstrument("Snare drum", 150.0);
+        PercussionInstrument snaredrum = new PercussionInstrument("Snare drum", 150.0);
         snaredrum.tocar();
 
-        PercussionInstrument Bassdrum = new PercussionInstrument("Bass drum", 300.0);
+        PercussionInstrument bassdrum = new PercussionInstrument("Bass drum", 300.0);
         bassdrum.tocar();
 
-        PercussionInstrument Cymbal = new PercussionInstrument("Cymbals", 200.0);
-        cymbals.tocar();
+        PercussionInstrument cymbal = new PercussionInstrument("Cymbals", 200.0);
+        cymbal.tocar();
 
-        PercussionInstrument Triangle = new PercussionInstrument ("Triangle", 50.0);
+        PercussionInstrument triangle = new PercussionInstrument ("Triangle", 50.0);
         triangle.tocar();
 
-        PercussionInstrument Marimba = new PercussionInstrument ("Marimba", 600.0);
+        PercussionInstrument marimba = new PercussionInstrument ("Marimba", 600.0);
         marimba.tocar();
         
         PercussionInstrument drum = new PercussionInstrument("Drum", 200.0);

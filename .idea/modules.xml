@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 1/Nivell 1.iml" filepath="$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 1/Nivell 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 2/Nivell 2.iml" filepath="$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 2/Nivell 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 3/Nivell 3.iml" filepath="$PROJECT_DIR$/Sprint 1. Java Language/Tasca_S1.01. Herència i Polimorfisme/Nivell 3/Nivell 3.iml" />
+    </modules>
+  </component>
+</project>

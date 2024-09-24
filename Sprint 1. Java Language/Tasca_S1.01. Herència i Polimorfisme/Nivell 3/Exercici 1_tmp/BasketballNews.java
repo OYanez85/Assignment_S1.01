@@ -1,25 +1,29 @@
-abstract class News {
-    protected String headline;
-    protected String text = "";
-    protected double price;
-    protected int score;
+public class BasketballNews extends News {
+    private boolean isEuroliga;
+    private boolean isBarcaOrMadrid;
 
-    public News(String headline) {
-        this.headline = headline;
+    // Constructor that takes headline, isEuroliga, and isBarcaOrMadrid as arguments
+    public BasketballNews(String headline, boolean isEuroliga, boolean isBarcaOrMadrid) {
+        super(headline);  // Call the constructor of the superclass News
+        this.isEuroliga = isEuroliga;
+        this.isBarcaOrMadrid = isBarcaOrMadrid;
     }
 
-    public abstract double calculatePrice();
-    public abstract int calculateScore();
-
-    public String getHeadline() {
-        return headline;
+    @Override
+    public double calculatePrice() {
+        double price = 250; // Base price for basketball news
+        if (isEuroliga) price += 75;
+        if (isBarcaOrMadrid) price += 75;
+        return price;
     }
 
-    public String getText() {
-        return text;
+    @Override
+    public int calculateScore() {
+        int score = 4; // Base score for basketball news
+        if (isEuroliga) score += 3;
+        if (isBarcaOrMadrid) score += 1;
+        return score;
     }
+}
 
-    public void setText(String text) {
-        this.text = text;
-    }
-} 
+

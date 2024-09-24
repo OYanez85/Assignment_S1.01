@@ -1,5 +1,5 @@
 // MainExercici1.java
-public class Main {
+public class MainExercici2 {
     public static void main(String[] args) {
         System.out.println("Brand: " + Car.brand);
 
@@ -15,31 +15,33 @@ public class Main {
         Car car9 = new Car("ID.3", 204);
         Car car10 = new Car("ID.4", 204);
 
-        System.out.println("Car 1 - Model: " + Car.model + ", Horsepower: " + car1.horsepower);
-        System.out.println("Car 2 - Model: " + Car.model + ", Horsepower: " + car2.horsepower);
-        System.out.println("Car 3 - Model: " + Car.model + ", Horsepower: " + car3.horsepower);
-        System.out.println("Car 4 - Model: " + Car.model + ", Horsepower: " + car4.horsepower);
-        System.out.println("Car 5 - Model: " + Car.model + ", Horsepower: " + car5.horsepower);
-        System.out.println("Car 6 - Model: " + Car.model + ", Horsepower: " + car6.horsepower);
-        System.out.println("Car 7 - Model: " + Car.model + ", Horsepower: " + car7.horsepower);
-        System.out.println("Car 8 - Model: " + Car.model + ", Horsepower: " + car8.horsepower);
-        System.out.println("Car 9 - Model: " + Car.model + ", Horsepower: " + car9.horsepower);
-        System.out.println("Car 10 - Model: " + Car.model + ", Horsepower: " + car10.horsepower);
+        // Correct variable names (car1, car2, etc.)
+        System.out.println("Car 1 - Model: " + car1.model + ", Horsepower: " + car1.horsepower);
+        System.out.println("Car 2 - Model: " + car2.model + ", Horsepower: " + car2.horsepower);
+        System.out.println("Car 3 - Model: " + car3.model + ", Horsepower: " + car3.horsepower);
+        System.out.println("Car 4 - Model: " + car4.model + ", Horsepower: " + car4.horsepower);
+        System.out.println("Car 5 - Model: " + car5.model + ", Horsepower: " + car5.horsepower);
+        System.out.println("Car 6 - Model: " + car6.model + ", Horsepower: " + car6.horsepower);
+        System.out.println("Car 7 - Model: " + car7.model + ", Horsepower: " + car7.horsepower);
+        System.out.println("Car 8 - Model: " + car8.model + ", Horsepower: " + car8.horsepower);
+        System.out.println("Car 9 - Model: " + car9.model + ", Horsepower: " + car9.horsepower);
+        System.out.println("Car 10 - Model: " + car10.model + ", Horsepower: " + car10.horsepower);
 
         // Call static method
         Car.braking();
 
         // Call non-static method
-        car1.accelerating();
-        car2.accelerating();
-        car3.accelerating();
-        car4.accelerating();
-        car5.accelerating();
-        car6.accelerating();
-        car7.accelerating();
-        car8.accelerating();
-        car9.accelerating();
-        car10.accelerating();
+        car1.accelerate();
+        car2.accelerate();
+        car3.accelerate();
+        car4.accelerate();
+        car5.accelerate();
+        car6.accelerate();
+        car7.accelerate();
+        car8.accelerate();
+        car9.accelerate();
+        car10.accelerate();
     }
 }
+
 
