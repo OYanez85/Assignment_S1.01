@@ -1,10 +1,10 @@
-// Main class to test the implementation
+
 public class MainExercici1 {
     public static void main(String[] args) {
-        // Static block demo: Access a static member to trigger class loading
+        
         System.out.println("Before creating instances...");
 
-        // Create instances of different wind instruments
+        
         WindInstrument flute = new WindInstrument("Flute", 150.0);
         flute.tocar();
 
@@ -32,7 +32,7 @@ public class MainExercici1 {
         WindInstrument saxophone = new WindInstrument("Saxophone", 400.0);
         saxophone.tocar();
 
-        // Create instances of different string instruments
+        
 
         StringInstrument guitar = new StringInstrument("Guitar", 300.0);
         guitar.tocar();
@@ -52,7 +52,7 @@ public class MainExercici1 {
         StringInstrument harp = new StringInstrument("Harp", 1000.0);
         harp.tocar();
 
-        // Create instances of different percussion instruments
+        
 
         PercussionInstrument timpani = new PercussionInstrument("Timpani", 900.0);
         timpani.tocar();
