@@ -1,4 +1,4 @@
-// News.java
+
 public abstract class News {
     protected String headline;
 
@@ -10,8 +10,8 @@ public abstract class News {
         return headline;
     }
 
-    // Rename the abstract methods to use the English naming convention
-    public abstract double calculatePrice();  // Changed from calcularPreuNoticia to calculatePrice
+    
+    public abstract double calculatePrice();  
 
-    public abstract int calculateScore();  // Changed from calcularPuntuacioNoticia to calculateScore
-}  // Add this closing brace to complete the class
+    public abstract int calculateScore();  
+}  
