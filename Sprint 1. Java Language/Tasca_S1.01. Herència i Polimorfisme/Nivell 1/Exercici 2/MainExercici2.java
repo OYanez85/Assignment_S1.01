@@ -1,9 +1,9 @@
-// MainExercici1.java
+
 public class MainExercici2 {
     public static void main(String[] args) {
         System.out.println("Brand: " + Car.brand);
 
-        // Create instances of Car
+        
         Car car1 = new Car("Golf", 150);
         Car car2 = new Car("Tiguan", 200);
         Car car3 = new Car("Passat", 180);
@@ -15,7 +15,7 @@ public class MainExercici2 {
         Car car9 = new Car("ID.3", 204);
         Car car10 = new Car("ID.4", 204);
 
-        // Correct variable names (car1, car2, etc.)
+        
         System.out.println("Car 1 - Model: " + car1.model + ", Horsepower: " + car1.horsepower);
         System.out.println("Car 2 - Model: " + car2.model + ", Horsepower: " + car2.horsepower);
         System.out.println("Car 3 - Model: " + car3.model + ", Horsepower: " + car3.horsepower);
@@ -27,10 +27,10 @@ public class MainExercici2 {
         System.out.println("Car 9 - Model: " + car9.model + ", Horsepower: " + car9.horsepower);
         System.out.println("Car 10 - Model: " + car10.model + ", Horsepower: " + car10.horsepower);
 
-        // Call static method
+        
         Car.braking();
 
-        // Call non-static method
+        
         car1.accelerate();
         car2.accelerate();
         car3.accelerate();
