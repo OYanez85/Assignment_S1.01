@@ -5,12 +5,12 @@ public class Main {
         Smartphone smartphone = new Smartphone("Samsung", "Galaxy S21");
 
         
-        smartphone.trucar("123-456-789");
+        smartphone.call("123-456-789");
 
         
-        smartphone.fotografiar();
+        smartphone.takingapicture();
 
         
-        smartphone.alarma();
+        smartphone.alarm();
     }
 }

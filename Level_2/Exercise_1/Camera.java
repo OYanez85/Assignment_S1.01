@@ -1,4 +1,3 @@
-
 public interface Camera {
-    void fotografiar();
+    void takingapicture();
 }

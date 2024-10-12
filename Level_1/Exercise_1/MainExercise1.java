@@ -1,5 +1,5 @@
 
-public class MainExercici1 {
+public class MainExercise1 {
     public static void main(String[] args) {
         
         System.out.println("Before creating instances...");
