@@ -20,7 +20,12 @@ class Editor {
     }
 
     public void addNews(News news) {
-        newsList.add(news);
+        // Check if the news already exists
+        if (!newsList.contains(news)) {
+            newsList.add(news);
+        } else {
+            System.out.println("News with the headline \"" + news.getHeadline() + "\" already exists!");
+        }
     }
 
     public boolean removeNews(String title) {
